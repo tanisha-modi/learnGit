@@ -11,4 +11,10 @@ git add 1st.html       => 1st.html goes to staging now ,1st.html is file name
 git add -A             => to get all files in staging area
 
 git commit (vim opens ..type ..I ,Initial commit , esc , :wq ....to exit)   => to commit the file
+                            OR
+git commit -m "added more htmls"                                            => to commmit files without that vim part
+
+
 touch file_name          => touch is used to create new, empty file
+
+//we can easily modify files and staged/commit again
