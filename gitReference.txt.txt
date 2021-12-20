@@ -1,0 +1,14 @@
+git config --global user.name tanisha          => inputing our name, tanisha is name 
+git config --global user.email tanishamodi12@gmail.com          => inputing our email, tanishamodi12@gmail.com is email 
+git config --global user.name                       => printing our name 
+git config --global user.name                       => printing our email
+code .                          =>opening code ide(vs code )
+git init       => initialized empty repo
+ls -lart       =>show all hidden files too
+UNtracted /staged /unmodified /modified /staged =>commit ....or remove to untracted 
+git status     => show files and their status 
+git add 1st.html       => 1st.html goes to staging now ,1st.html is file name 
+git add -A             => to get all files in staging area
+
+git commit (vim opens ..type ..I ,Initial commit , esc , :wq ....to exit)   => to commit the file
+touch file_name          => touch is used to create new, empty file
