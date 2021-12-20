@@ -18,3 +18,12 @@ git commit -m "added more htmls"                                            => t
 touch file_name          => touch is used to create new, empty file
 
 //we can easily modify files and staged/commit again
+//do commit when you are sure about changes you made to files
+
+git checkout file_name     => if file is modified by mistake ...using checkout command ..file can be matched to last commit 
+git checkout -f            => for all files
+git log                    =>show commits
+
+//q to exit 
+git diff               =>compares working file to commited file  
+git diff --staged      =>compares staging area to last commited file 
