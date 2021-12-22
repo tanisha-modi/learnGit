@@ -4,9 +4,9 @@ git config --global user.name                       => printing our name
 git config --global user.name                       => printing our email
 code .                          =>opening code ide(vs code )
 git init       => initialized empty repo
-ls -lart       =>show all hidden files too
+ls -lart       =>show all hidden files too        ls  =>  show files 
 UNtracted /staged /unmodified /modified /staged =>commit ....or remove to untracted 
-git status     => show files and their status 
+git status     => show files and their status           git status -s      =>short way to see the status of files
 git add 1st.html       => 1st.html goes to staging now ,1st.html is file name 
 git add -A             => to get all files in staging area
 
@@ -29,3 +29,5 @@ git diff               =>compares working file to commited file
 git diff --staged      =>compares staging area to last commited file 
 
 git commit -a -m "skipped staging area and fixed<"     =>to commit file directly (without commiting)
+git rm --cached file_name            =>removes file (from staged or commited area but it would still be in untracked area)
+git rm                               =>removes file 
