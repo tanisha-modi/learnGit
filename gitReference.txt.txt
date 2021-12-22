@@ -27,3 +27,5 @@ git log                    =>show commits
 //q to exit 
 git diff               =>compares working file to commited file  
 git diff --staged      =>compares staging area to last commited file 
+
+git commit -a -m "skipped staging area and fixed<"     =>to commit file directly (without commiting)
