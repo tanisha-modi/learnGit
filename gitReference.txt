@@ -1,0 +1,53 @@
+git config --global user.name tanisha          => inputing our name, tanisha is name 
+git config --global user.email tanishamodi12@gmail.com          => inputing our email, tanishamodi12@gmail.com is email 
+git config --global user.name                       => printing our name 
+git config --global user.name                       => printing our email
+code .                          =>opening code ide(vs code )
+git init       => initialized empty repo
+ls -lart       =>show all hidden files too        ls  =>  show files 
+UNtracted /staged /unmodified /modified /staged =>commit ....or remove to untracted 
+git status     => show files and their status           git status -s      =>short way to see the status of files
+git add 1st.html       => 1st.html goes to staging now ,1st.html is file name 
+git add -A             => to get all files in staging area
+
+git commit (vim opens ..type ..I ,Initial commit , esc , :wq ....to exit)   => to commit the file
+                            OR
+git commit -m "added more htmls"                                            => to commmit files without that vim part
+
+
+touch file_name          => touch is used to create new, empty file
+
+//we can easily modify files and staged/commit again
+//do commit when you are sure about changes you made to files
+
+git checkout file_name     => if file is modified by mistake ...using checkout command ..file can be matched to last commit 
+git checkout -f            => for all files
+git log                    =>show commits
+git log -p -10 --> gives history of last 10 commits, q to (quit)
+
+//q to exit 
+git diff               =>compares working file to commited file  
+git diff --staged      =>compares staging area to last commited file 
+git commit -a -m "skipped staging area and fixed<"     =>to commit file directly (without commiting)
+git rm --cached file_name            =>removes file (from staged or commited area but it would still be in untracked area)
+git rm                               =>removes file 
+touch .gitignore                     =>file which contents the file we want ignore i.e. dont want to push,
+                                       we just need to write filenames to be ignored
+                                       in file ...if we write .../file_name    =>only files existing in that with same file_name will be ignored
+                                       *.txt   => ignore all files with extension .txt 
+                                       tanisha/ => ignores folder with name tanisha
+
+we can make new branches to make any changes to any file that the original file remains safe ...we can merge branches when needed                                         
+master is the main branch
+git branch brnch_name         => for making new branch with name brnch_name 
+git checkout brnch_name       => for switchimng to brnch_name branch 
+git branch                    => list the branches 
+git merge                     => merges any branch to master branch
+git checkout -b brnch_name    =>to create and switch to other branch with name brnch_name
+
+git remote add origin copied_link_from_github_new_repo              =>
+git remote                                                          =>list remotes ..origin
+git remote -V                                                       => links to fetch and push
+
+git push -u origin master        => to push files of master branch to github profile
+git push
