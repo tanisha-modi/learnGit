@@ -42,7 +42,7 @@ master is the main branch
 git branch brnch_name         => for making new branch with name brnch_name 
 git checkout brnch_name       => for switchimng to brnch_name branch 
 git branch                    => list the branches 
-git merge brnch_name          => merges any branch to master branch  
+git merge brnch_name          => merges any branch to master branch  (write in master branch)
 git checkout -b brnch_name    =>to create and switch to other branch with name brnch_name
 
 git remote add origin copied_link_from_github_new_repo              =>
