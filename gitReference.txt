@@ -48,6 +48,7 @@ git checkout -b brnch_name    =>to create and switch to other branch with name b
 
 create new repo on github
 git remote add origin copied_link_from_github_new_repo              =>
+git remote origin copied_link_from_github_new_repo                  -->
 git remote                                                          =>list remotes ..origin
 git remote -V                                                       => links to fetch and push
 origin --> name of remote (in future while pushing we dont need to copy link ..just write origin)
@@ -55,6 +56,60 @@ git remote set-url origin _link_   -->
 
 git push -u origin master        => to push files of master branch to github profile to origin(link name)
 git push
+
+
+
+
+================================================================
+second time learn git : hitesh dsa course
+================================================================
+git init --> git initialization
+dir --> list directories
+mkdir --> make new directory
+rmdir --> remove directory 
+cd --> change directory
+
+ls -->list all files
+ls -a -->list all files including hidden files
+ls -lart
+
+touch --> create new file
+cat --> displays whatever in file
+
+ git config --global user.name tanisha --> setting name
+ git config --global user.email ..... -->setting email
+
+git add --> for staging
+git add -A --> all files to staging area
+green represent staging area 
+
+git commit --> to commit file
+(vim will be opened), you have to press i, initial commit,press esp, :wq(to exit)
+shortcut to commit --> git commit -m "Added more files"
+
+git checkout --> to match the file to the file of last commit 
+git checkout -f --> match all files to the files of previous commit
+
+git log --> gives history of previous commits 
+git log -p -10 --> gives history of last 10 commits, q to (quit)
+
+git diff --> compare working dir with staging area
+git diff --staged   --> compare staged dir to last commit
+
+ git commit -a -m "skipped staging area" --> directly commit without staging(u must add/stage it at least one time)
+ git commit -a -m "skipped staging area and fixed <"
+
+git rm --> removes(delete) dir from staging area
+git rm --cached  --> only remove from staging area and not from hard disk
+git rm -f --> force remove
+
+git status --> gives record which file is in which state
+git status -s --> gives summary in short (red M for modified, green M for staged)
+
+clear --> to clear the terminal
+
+tab --> to autocomplete
+
 
 
 
