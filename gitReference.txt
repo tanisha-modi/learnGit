@@ -55,7 +55,7 @@ origin --> name of remote (in future while pushing we dont need to copy link ..j
 git remote set-url origin _link_   --> 
 
 git push -u origin master        => to push files of master branch to github profile to origin(link name)
-git push
+git push                         --> push files where the files were pushed last time(in last push command)
 
 
 
