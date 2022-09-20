@@ -33,7 +33,7 @@ git rm --cached file_name            =>removes file (from staged or commited are
 git rm                               =>removes file 
 touch .gitignore                     =>file which contents the file we want ignore i.e. dont want to push,
                                        we just need to write filenames to be ignored
-                                       in file ...if we write .../file_name    =>only files existing in that with same file_name will be ignored
+                                       in file ...if we write .../file_name    =>only files existing in that main folder with same file_name will be ignored
                                        *.txt   => ignore all files with extension .txt 
                                        tanisha/ => ignores folder with name tanisha
 
@@ -51,3 +51,22 @@ git remote -V                                                       => links to 
 
 git push -u origin master        => to push files of master branch to github profile
 git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
