@@ -45,6 +45,8 @@ git branch                    => list the branches
 git merge brnch_name          => merges any branch to master branch  (write in master branch)
 git checkout -b brnch_name    =>to create and switch to other branch with name brnch_name
 
+
+create new repo on github
 git remote add origin copied_link_from_github_new_repo              =>
 git remote                                                          =>list remotes ..origin
 git remote -V                                                       => links to fetch and push
