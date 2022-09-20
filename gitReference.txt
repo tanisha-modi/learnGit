@@ -50,8 +50,10 @@ create new repo on github
 git remote add origin copied_link_from_github_new_repo              =>
 git remote                                                          =>list remotes ..origin
 git remote -V                                                       => links to fetch and push
+origin --> name of remote (in future while pushing we dont need to copy link ..just write origin)
+git remote set-url origin _link_   --> 
 
-git push -u origin master        => to push files of master branch to github profile
+git push -u origin master        => to push files of master branch to github profile to origin(link name)
 git push
 
 
